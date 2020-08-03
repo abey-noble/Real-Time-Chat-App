@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Real Time Chat App</title>
+        <!-- meta data that allows for response webpages -->
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
+        <!-- how you link a css page -->
+        <link href = "style.css" rel = "stylesheet">
+    </head>
+    <body>
+        <h1>Chat!</h1>
+        <!-- forms are basically used for collecting user input -->
+        <form>
+            <input type = "text" id = "typeMessage" placeholder = "chat here"/>
+            <input type = "submit" value = "send"/>
+        </form>
+            <ul id ="chatHistory">
+        </ul>
+
+        <!-- how you link js files remember this you did this before -->
+        <!-- the order of the files matter think of this going top down  -->
+        <script src = "/socket.io/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src = "client.js"></script>
+        
+        
+        <!-- <script>
+            var socket = io();
+        </script> -->
+    </body>
+</html>
