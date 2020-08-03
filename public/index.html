@@ -9,14 +9,25 @@
         <link href = "style.css" rel = "stylesheet">
     </head>
     <body>
-        <h1>Chat!</h1>
+        <div class = "entireThing">
+            <h1>Chat!</h1>
         <!-- forms are basically used for collecting user input -->
-        <form>
-            <input type = "text" id = "typeMessage" placeholder = "chat here"/>
-            <input type = "submit" value = "send"/>
-        </form>
-            <ul id ="chatHistory">
-        </ul>
+        <div class = "wholeThing">
+            <div class = "enterChat">
+                <form>
+                    <input type = "text" id = "textMessage" placeholder = "chat here"/>
+                    <!-- <input type = "submit" value = "send"/> -->
+                </form>
+            </div>
+            <div class = "lists">
+                <ul id ="chatHistory">
+                </ul>
+            </div>
+        </div>
+        </div>
+        
+        
+        
 
         <!-- how you link js files remember this you did this before -->
         <!-- the order of the files matter think of this going top down  -->

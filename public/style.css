@@ -1,0 +1,64 @@
+html, body {
+    text-align: center;
+    font-family: 'Avenir Next', 'Helvetica', 'Arial', sans-serif;
+}
+
+html,body,li,form,ul {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    padding-bottom: 2%;
+    display: inline-block;
+}
+input {
+    outline: none;
+    width: 490px;
+    height: 45px;  
+}
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    /* width: 100vw; */
+    width: 490px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    background: #CAD5E8;
+    color: white;
+    margin-top: 1px;
+}
+
+li:nth-child(odd) {
+
+    background:lightblue;
+}
+
+.lists {
+    text-align: center;
+
+}
+
+.enterChat {
+    /* text-align: right; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    text-align: center;
+}
+
+.wholeThing {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.entireThing {
+    display: inline-block;
+    background-color: #E8EBED;
+    width: 500px;
+}
+  

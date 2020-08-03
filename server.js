@@ -26,7 +26,15 @@ io.on("connection", function(client) {
     client.on("join", function(data){
         console.log(data);
     });
+
+    // add messages and emit the thread
+    client.on("messages", function(data) {
+        client.emit("thread", data);
+        client.broadcast.emit("thread", data);
+    });
 });
+
+
 
 server.listen(9000);
 
